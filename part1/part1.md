@@ -1,4 +1,4 @@
-1a.  
+## 1a.  
 >1. Values added: 20
 >2. final result: 20
 >3. Values added: 20
@@ -7,7 +7,7 @@
 >6. Error since result was defined on line 5 and resigned on 7.  
 
 
-1b.
+## 1b.
 >1. Since we defined i with var, it will still live past the for loop. For this reason, "3" will be printed.
 >2. Since we defined discountedPrice with var, it will still live past the for loop. For this reason, it will have the most recent value from the for loop. It will print "150"
 >3. Since we defined finalPrice with var, it will still live past the for loop. For this reason, it will have the most recent value from the for loop. It will print "150"
@@ -46,4 +46,8 @@ E) False. True will be converted to 1. 1 != 2.
 F) True. Boolean(2) will be converted to true, and true === true.  
 
 15. The == operation will convert the data types and check their integer equality. The === operation will check if they are the same type, and if so check if they have the same value.   
+
 16. 
+17. The function will return [2,4,6]. The array will be passed in as a parameter, and then run through the for loop. The for loop will take each element from the initial array, and then use the doSomething function on the element. The doSomething function will return double the input value. So when 1 is passed in, 2 is returned. All values are doubled and pushed into the newArr, which is then returned.
+18.
+19. The output will be 1 4 3 2. This is because 1 is printed first, and then setting the timeout will take time. 4 will be the next, since there is no timeout set, and then 3 since it has the lowest timeout. Finally, after a second, 2 will be printed.

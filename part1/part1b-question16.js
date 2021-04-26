@@ -8,5 +8,7 @@ let statisics = {
 };
 
 for (let car in statisics) {
-    console.log(car)
+    if(car.substring(0,1) == "r" || statisics[car]%2 == 1){
+        console.log(statisics[car])
+    }
 }
